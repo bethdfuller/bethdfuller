@@ -15,8 +15,27 @@ header {
     grid-column: 4 / 13;
     grid-row: 2;
     padding-bottom: 500px;
+
   }
-  
+
+  .mainlist {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    padding-right: 15px;
+    border-right: none;
+  }
+
+  .projecttext {
+    text-align: center;
+  }
+
+  .responsive {
+    width: 75%;
+    height: auto;
+  }
+
   /* aside / links */
   aside {
     grid-column: 1 / 4;
